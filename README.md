@@ -9,5 +9,6 @@ cargo install diesel_cli --no-default-features --features postgres
 
 ```
 docker-compose up -d
+diesel migration run
 cargo run
 ```
